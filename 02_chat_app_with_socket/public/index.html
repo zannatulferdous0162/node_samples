@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='jquery-3.3.1.min.js'></script>
+    <script src="socket.io.min.js"></script>
+    <script src="myscript.js"></script>
+    <link href="mystyle.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="container">
+            <h2>Messages</h2>
+            <div id="chat_area">
+                <div id="feedback"></div>
+                <div id="output_msg"></div>
+            </div>
+            <div id="input">
+                <input id="message" type="text" placeholder="Wite Your Message" />
+                <input type="file" name="uploadFile" id="uploadFile" />
+            </div>
+            <button id="send">Send</button>
+        </div>
+        <div id="user_area">
+            <h1><span>NVIT</span></h1>
+            <h3>Online Users</h3>
+            <ul id="users"></ul>
+        </div>
+    </div>
+</body>
+
+</html>
